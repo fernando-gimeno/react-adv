@@ -1,0 +1,79 @@
+[
+  {
+    "as": "input",
+    "type": "text",
+    "name": "firstName",
+    "placeholder": "First Name",
+    "label": "First Name",
+    "value": "",
+    "validations": [
+      {
+        "type": "required",
+        "message": "First Name is required"
+      },
+      {
+        "type": "minLength",
+        "value": 3,
+        "message": "First name must be at least 3 characters"
+      }
+    ]
+  },
+  {
+    "as": "input",
+    "type": "text",
+    "name": "lastName",
+    "placeholder": "Last Name",
+    "label": "Last Name",
+    "value": "",
+    "validations": [
+      {
+        "type": "required",
+        "message": "Last Name is required"
+      }
+    ]
+  },
+  {
+    "as": "input",
+    "type": "email",
+    "name": "email",
+    "placeholder": "Email",
+    "label": "Email Address",
+    "value": "",
+    "validations": [
+      {
+        "type": "required",
+        "message": "Email is required"
+      },
+      {
+        "type": "email",
+        "message": "Email is not valid"
+      }
+    ]
+  },
+  {
+    "as": "select",
+    "name": "favoriteGame",
+    "label": "Favorite Game",
+    "value": "",
+    "options": [
+      {
+        "id": 1,
+        "label": "Poker"
+      },
+      {
+        "id": 2,
+        "label": "Backjack"
+      },
+      {
+        "id": 3,
+        "label": "Roulette"
+      }
+    ],
+    "validations": [
+      {
+        "type": "required",
+        "message": "Select Favorite Game is required"
+      }
+    ]
+  }
+]
